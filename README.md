@@ -1,6 +1,6 @@
 # 💻​ Challenge encriptador de texto - Alura y Oracle
 
-<img src="" aling="center" width="80%">
+![Captura de pantalla 2024-08-27 221421](https://github.com/user-attachments/assets/7260a45d-279e-4493-bac2-da9fc2f7ce90)
 
 ## ✅ Índice
 
@@ -23,5 +23,5 @@ En este proyecto se utiliza HTML, CSS y JavaScript.
 + El encriptador es reversible, es decir, es posible que una palabra encriptada vuelva a su versión original.
 
 ## 🍄​ Desarrollador 🐶
-<a href="https://github.com/nahhhhir">
-src/img/descarga.png  </a>
+<a href="https://github.com/nahhhhir"> ![descarga](https://github.com/user-attachments/assets/f8f9f43e-b977-4cd3-93be-c36befac5493)
+ </a>
