@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/img/pata.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/normal.css">
+
+    <title>Encriptador- Alura</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="./src/img/pata.png" alt="patitta de perro color rojo">
+        <h1 class="title">Encriptador y Desentriptador </h1>
+    </header>
+
+    <main class="main">
+        <section class="main-content-text">
+            <textarea name="content_text" id="input_encrypt" placeholder="Ingrese el texto aquí..."></textarea>
+
+            <div class="content-alert">
+                <img class="alert-icon" src="./src/img/advertencia.png" alt="icono de advertencia">
+                <p class="content-alert-info">Solo letras minusculas y sin acentos</p>
+            </div>
+
+            <div class="content-buttons">
+                <button class="button button-encrypt" id="button-encrypt">Encriptar</button>
+                <button class="button button-decrypt" id="button-decrypt">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="result">
+            <div class="no_texto">
+                <img class="result-img" src="./src/img/preguntando-perro.png" alt="perrito con preguntas">
+            <h2 class="result-title">Ningun mensaje fue encontrado</h2>
+            <p class="text-result"></p>
+            <p class="result-text">Ingrese el texto a encriptar o desencriptar</p>
+            </div>
+
+            <textarea class="output_text_decrypt" id="output_decrypt" ></textarea>
+
+            <button class="button button-copy" id="button-copy">Copiar</button>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer-copy">&copy; Nahhhhir 2024</p>
+
+        <a class="footer-autor" href="https://github.com/nahhhhir"><img class="img-autor" src="./src/img/descarga.png"
+                alt=""></a>
+
+    </footer>
+    <script src="./src/js/app.js"></script>
+    <div id="msj-alert"></div>
+</body>
+
+</html>
